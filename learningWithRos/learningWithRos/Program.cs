@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks.Dataflow;
 
 namespace learningWithRos
 {
@@ -26,6 +27,23 @@ namespace learningWithRos
             Console.WriteLine(sum);
             CarType MyCarType = CarType.Ford;
             Console.WriteLine(MyCarType);
+            int c = 2;
+            bool f = c == 2;
+            Console.WriteLine(f);
+            if (f)
+            {
+                Console.WriteLine("its true");
+            }
+            int guess = 500;
+            if (guess==500)
+            {
+                Console.WriteLine("Success!");
+            }
+
+
+
+
+          
         }
     }
 }
