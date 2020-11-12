@@ -39,6 +39,16 @@ namespace learningWithRos
             {
                 Console.WriteLine("Success!");
             }
+            int[] nums = new int[10];
+            Console.WriteLine(nums.Length);
+            int firstnumber = nums[0];
+            int secodnumber = nums[1];
+            Console.WriteLine(firstnumber);
+            nums[2] = 10;
+            Console.WriteLine(nums[2]);
+
+
+
 
 
 
