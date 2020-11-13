@@ -44,12 +44,12 @@ namespace learningWithRos
                 Console.WriteLine("Success!");
             }
 
-            int[,] matrix = new int[2, 2] { {1,2 }, {3,4 } };
+            int[,] matrix = new int[2, 2] { { 1, 2 }, { 3, 4 } };
             Console.WriteLine(matrix[0, 0]);
 
             string[] friuts = new string[3];
-            friuts[0]= "apple";
-            friuts[1]= "orange";
+            friuts[0] = "apple";
+            friuts[1] = "orange";
             friuts[2] = "banana";
             Console.WriteLine(friuts[2]);
             string[] cars = new string[] { "Ford", "Honda" };
@@ -74,11 +74,11 @@ namespace learningWithRos
             primeNumbers.Add(5);
             primeNumbers.Add(7);
             Console.WriteLine(primeNumbers.Count);
-            Console.WriteLine("fistnumber"+primeNumbers[0]+"secondnumber"+ primeNumbers[1]+"thirdnumber"+ primeNumbers[2] +"forthnumber"+ primeNumbers[3]);
+            Console.WriteLine("fistnumber" + primeNumbers[0] + "secondnumber" + primeNumbers[1] + "thirdnumber" + primeNumbers[2] + "forthnumber" + primeNumbers[3]);
 
 
 
-          
+
         }
     }
 }
