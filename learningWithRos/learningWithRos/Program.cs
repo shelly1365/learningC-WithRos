@@ -74,11 +74,11 @@ namespace learningWithRos
             primeNumbers.Add(5);
             primeNumbers.Add(7);
             Console.WriteLine(primeNumbers.Count);
-            Console.WriteLine("fistnumber" + primeNumbers[0] + "secondnumber" + primeNumbers[1] + "thirdnumber" + primeNumbers[2] + "forthnumber" + primeNumbers[3]);
+            Console.WriteLine("fistnumber"+primeNumbers[0]+"secondnumber"+ primeNumbers[1]+"thirdnumber"+ primeNumbers[2] +"forthnumber"+ primeNumbers[3]);
 
 
 
-
+          
         }
     }
 }
